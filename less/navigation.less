@@ -1,1 +1,38 @@
 // Navigation Styles here
+
+
+header {
+
+    display: flex;
+    justify-content: space-between;
+    align-content: baseline;
+    .Border();
+    padding: 3rem;
+    
+    @media @mobile{
+        flex-direction: column;
+        align-items: center;
+        padding: 0;
+        margin-top: 3rem;
+    }
+
+}
+
+.NaviBar {
+    display: flex;
+}
+
+
+
+
+a {
+    font-size: 20px;
+    margin: 1rem;
+    text-decoration: none;
+    color: black;
+    
+    @media @mobile{
+        padding: 0 2rem;
+        font-size: 1.8rem;
+    }
+}
